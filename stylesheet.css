@@ -159,6 +159,12 @@ a:has(.profile-photo) {
   border-bottom-color: #000;
 }
 
+.bio .research-topic {
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+}
+
 /* Job market banner */
 .job-banner {
   color: #333;
@@ -167,18 +173,27 @@ a:has(.profile-photo) {
 
 /* Intern line */
 .intern-line {
-  color: #888;
+  color: #444;
   font-size: 16px;
+  font-weight: normal;
 }
 
 .intern-line a {
-  color: #888;
-  border-bottom: 1px solid #ddd;
+  color: #2563EB;
+  font-weight: normal;
+  border-bottom: none;
 }
 
 .intern-line a:hover {
-  color: #555;
-  border-bottom-color: #555;
+  color: #1d4ed8;
+}
+
+.intern-line a.muted-link {
+  color: #444;
+}
+
+.intern-line a.muted-link:hover {
+  color: #222;
 }
 
 /* Lists */
@@ -193,7 +208,12 @@ li {
 }
 
 li a {
+  color: #2563EB;
   border-bottom: none;
+}
+
+li a:hover {
+  color: #1d4ed8;
 }
 
 /* Footer */
