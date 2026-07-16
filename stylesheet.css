@@ -216,6 +216,30 @@ li a:hover {
   color: #1d4ed8;
 }
 
+.resource-links {
+  color: #aaa;
+  font-size: 13px;
+  margin-left: 4px;
+}
+
+.resource-link {
+  white-space: nowrap;
+}
+
+.resource-link + .resource-link {
+  margin-left: 4px;
+}
+
+.resource-links a {
+  color: #64748b;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.resource-links a:hover {
+  color: #2563EB;
+}
+
 /* Footer */
 .footer {
   text-align: center;
