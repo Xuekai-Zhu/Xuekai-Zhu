@@ -216,26 +216,6 @@ li a:hover {
   color: #1d4ed8;
 }
 
-.resource-icons {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  margin-left: 5px;
-  vertical-align: middle;
-}
-
-.resource-icons a {
-  color: #94a3b8;
-  font-size: 14px;
-  line-height: 1;
-  transition: color 0.2s, transform 0.2s;
-}
-
-.resource-icons a:hover {
-  color: #2563EB;
-  transform: translateY(-1px);
-}
-
 /* Footer */
 .footer {
   text-align: center;
